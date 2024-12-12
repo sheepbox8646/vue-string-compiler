@@ -13,6 +13,13 @@
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
   },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    }
+  },
   "dependencies": {
     "vue": "^3.5.13",
     "vue-inbrowser-compiler": "^4.72.4"
